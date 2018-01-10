@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    tools:context="xtremecreations.surfer.AdBlocking_Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f9f9f9">
+
+        <RelativeLayout
+            android:id="@+id/ad_title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:clickable="true"
+                android:paddingTop="13dp"
+                android:paddingBottom="13dp"
+                android:paddingRight="50dp"
+                android:visibility="gone"
+                android:id="@+id/share_ad"
+                android:background="@drawable/ad_background"
+                android:src="@drawable/share_ad" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/ad_background"
+                android:clickable="true"
+                android:paddingTop="13dp"
+                android:paddingBottom="13dp"
+                android:visibility="gone"
+                android:paddingLeft="50dp"
+                android:id="@+id/clean_ad"
+                android:src="@drawable/clean_ad" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Adblock"
+                android:textSize="22sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:layout_below="@+id/ad_title"
+            android:id="@+id/ad_details"
+            android:background="#fff">
+
+            <com.skyfishjy.library.RippleBackground
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:id="@+id/ad_ripple"
+                app:rb_color="#2196F3"
+                app:rb_radius="32dp"
+                app:rb_type="fillRipple"
+                app:rb_rippleAmount="4"
+                app:rb_duration="3000"
+                android:layout_marginTop="-30dp"
+                app:rb_scale="6">
+            </com.skyfishjy.library.RippleBackground>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="25dp"
+                android:paddingRight="8dp"
+                android:id="@+id/ad_shield"
+                android:src="@drawable/shield_disabled" />
+            <TextView
+                android:id="@+id/ads_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="85dp"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="#fff"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ads_total"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="Ads Blocked"
+                android:textColor="#fff"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                android:text="Xtreme Surfer"
+                android:textSize="15sp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/adblocker"
+            android:layout_below="@id/ad_details">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="20dp"
+                android:clickable="false"
+                android:textColor="#3b3b3b"
+                android:textSize="18sp"
+                android:text="Ad Blocker"/>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:id="@+id/ad_switch"
+                android:src="@drawable/off"
+                android:layout_marginRight="20dp"
+                android:clickable="false"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

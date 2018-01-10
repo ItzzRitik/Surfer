@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#232323</color>
+    <color name="colorPrimaryDark">#232323</color>
+    <color name="colorAccent">#16A085</color>
+    <color name="FabRollover">#545454</color>
+
+    <color name="MaincolorPrimary">#303030</color>
+    <color name="MaincolorPrimaryDark">#303030</color>
+    <color name="MaincolorAccent">#16A085</color>
+    <color name="MainProgress">#16A085</color>
+    <color name="Maincolorhint">#afafaf</color>
+
+    <color name="GreencolorPrimary">#43A047</color>
+    <color name="GreencolorPrimaryDark">#43A047</color>
+    <color name="GreencolorAccent">#ec484b</color>
+    <color name="GreenProgress">#95ed99</color>
+    <color name="Greentexthint">#8bc98d</color>
+
+    <color name="RedcolorPrimary">#FF5252</color>
+    <color name="RedcolorPrimaryDark">#FF5252</color>
+    <color name="RedcolorAccent">#009688</color>
+    <color name="RedProgress">#ffc6c6</color>
+    <color name="Redtexthint">#ffa8a8</color>
+
+    <color name="BluecolorPrimary">#2196F3</color>
+    <color name="BluecolorPrimaryDark">#2196F3</color>
+    <color name="BluecolorAccent">#009688</color>
+    <color name="BlueProgress">#87caff</color>
+    <color name="Bluetexthint">#87caff</color>
+
+    <color name="maincolor">#232323</color>
+    <color name="menucolor">#ffffff</color>
+
+    <color name="adblock">#D32F2F</color>
+    <color name="fullscreen">#4f6d8c</color>
+    <color name="speed_mode">#FF9800</color>
+    <color name="usermode">#009688</color>
+</resources>
