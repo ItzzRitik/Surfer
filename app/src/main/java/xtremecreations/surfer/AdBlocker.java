@@ -4,10 +4,8 @@ import android.annotation.TargetApi;
 import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Build;
-import android.support.annotation.WorkerThread;
 import android.text.TextUtils;
 import android.webkit.WebResourceResponse;
-import android.widget.Toast;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
@@ -35,7 +33,6 @@ public class AdBlocker {
         }.execute();
     }
 
-    @WorkerThread
     private static void loadFromAssets(Context context) throws IOException {
         InputStream stream = context.getAssets().open(AD_HOSTS_FILE);
         BufferedSource buffer = Okio.buffer(Okio.source(stream));
