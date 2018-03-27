@@ -1251,7 +1251,7 @@ public class Home extends AppCompatActivity {
             @TargetApi(Build.VERSION_CODES.HONEYCOMB)
             @Override
             public WebResourceResponse shouldInterceptRequest(WebView view, WebResourceRequest request) {
-                if(adblock==1 && ad_paused==1)
+                if(adblock==1)// && ad_paused==1)
                 {
                     boolean ad;
                     if (!loadedUrls.containsKey(request.getUrl().toString())) {
