@@ -6,7 +6,7 @@ body, html {
 }
 
 .cover{
-	background: url("img/back.jpg") no-repeat center center fixed;
+	background: url("img_data/back.jpg") no-repeat center center fixed;
 	height: 100%;
 	background-size: cover;
 }
@@ -63,7 +63,7 @@ body, html {
 	float: left;
 	margin: 5.5px 0 0 20px;
 
-	background: url("img/logo_black.svg") no-repeat center;
+	background: url("img_data/logo_black.svg") no-repeat center;
 	background-size: 40px;
 }
 #mainNav .nav-menu-button{
@@ -177,7 +177,7 @@ body, html {
 		height: 0px;
 		padding: 30px;
 		margin-left: 50px;
-		background: url("img/logo_white.svg") no-repeat center;
+		background: url("img_data/logo_white.svg") no-repeat center;
 		background-size: 60px;
 	}
 	#mainNav .navbar-brand > p {
