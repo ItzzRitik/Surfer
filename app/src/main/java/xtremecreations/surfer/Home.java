@@ -415,7 +415,7 @@ public class Home extends AppCompatActivity {
                     case MotionEvent.ACTION_MOVE:
                         if(!menu_rect.contains(v.getLeft() + (int) event.getX(), v.getTop() + (int) event.getY())){its_out=1;}
                         else{its_out=0;}
-                        tittle.setText( reReady+" , "+me_back+" , "+me_for+" , "+me_back_over+" , "+its_loading+" , "+me_back_over+" , "+me_for_over);
+                        //tittle.setText( reReady+" , "+me_back+" , "+me_for+" , "+me_back_over+" , "+its_loading+" , "+me_back_over+" , "+me_for_over);
                         if(menu_reload.contains(v.getLeft() + (int) event.getX(), v.getTop() + (int) event.getY())&& its_loading==0 && reReady == 0 && me_back==0 && me_for==0 && me_back_over==0&& me_for_over==0)
                         {
                             animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.float_show);
