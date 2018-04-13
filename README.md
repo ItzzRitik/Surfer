@@ -6,5 +6,5 @@ Features
 -	Built-in QR scanner, to dive into website without having to type it manually.
 -	Stunning user interface, to keep you enchanted while browsing through web.
 -	Built-in Theme Engine, for a daily dose of unique appearance.
--	Seamless voice controls.
+-	Seamless voice controls, for navigating between websites smoothly.
 
