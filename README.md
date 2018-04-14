@@ -8,3 +8,6 @@ Fully functional web browser mobile application, based on Google Chromium API he
 -	Built-in Theme Engine, for a daily dose of unique appearance.
 -	Seamless voice controls, for navigating between websites smoothly.
 
+## Screenshots
+<img src="Screenshot/Home.png" width="300">
+
