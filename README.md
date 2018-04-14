@@ -6,7 +6,7 @@ Fully functional web browser mobile application, based on Google Chromium API he
 -	Built-in QR scanner, to dive into website without having to type it manually.
 -	Stunning user interface, to keep you enchanted while browsing through web.
 -	Built-in Theme Engine, for a daily dose of unique appearance.
--	Seamless voice controls, for navigating between websites smoothly.<br>
+-	Seamless voice controls, for navigating between websites smoothly.
 
 ## Screenshots
 <br><div style="text-align:center"><img src="Screenshots/Grid.png"/></div>
