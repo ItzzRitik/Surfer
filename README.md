@@ -7,7 +7,7 @@ Fully functional web browser mobile application, based on Google Chromium API he
 -	Stunning user interface, to keep you enchanted while browsing through web.
 -	Built-in Theme Engine, for a daily dose of unique appearance.
 -	Seamless voice controls, for navigating between websites smoothly.
-
+<br>
 ## Screenshots
 <br><div style="text-align:center"><img src="Screenshots/Grid.png"/></div>
 
