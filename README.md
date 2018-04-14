@@ -9,7 +9,6 @@ Fully functional web browser mobile application, based on Google Chromium API he
 -	Seamless voice controls, for navigating between websites smoothly.
 
 ## Screenshots
-<span width="5%"></span><img src="Screenshot/Splash.png" width="30%"><img src="Screenshot/Home.png" width="30%"><img src="Screenshot/Menu.png" width="30%">
-
+<img src="Screenshot/Splash.png" width="30%"><img src="Screenshot/Home.png" width="30%"><img src="Screenshot/Menu.png" width="30%">
 <img src="Screenshot/Ad_mini.png" width="30%"><img src="Screenshot/Ad_main.png" width="30%"><img src="Screenshot/Qr.png" width="30%">
 
