@@ -11,5 +11,4 @@ Fully functional web browser mobile application, based on Google Chromium API he
 ## Screenshots
 
 <img src="screenshots/sp.png" width="33.3333%"><img src="screenshots/ho.png" width="33.3333%"><img src="screenshots/me.png" width="33.3333%"><img src="screenshots/q.png" width="33.3333%"><img src="screenshots/ad_f.png" width="33.3333%"><img src="screenshots/ad_m.png" width="33.3333%">
-<img src="screenshots/grid_ss.png" width="100%">
 
