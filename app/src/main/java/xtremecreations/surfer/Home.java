@@ -1524,7 +1524,7 @@ public class Home extends AppCompatActivity {
                 .setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {}
                 })
-                .setIcon(R.mipmap.logo)
+                .setIcon(R.drawable.icon)
                 .show();
     }
 
