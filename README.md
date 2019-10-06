@@ -23,4 +23,4 @@ Those days were not bad when we had a separate application for scanning **QR Cod
 ## Download  
 **Surfer Browser** mobile application is packed with lot of features and ideal for any anybody who likes surfing over internet. Get your hands on it for free.  
 
-[<img src="screenshots/download_button.png" width="200">](blob/master/Surfer.apk?raw=true)
+[<img src="screenshots/download_button.png" width="200">](Surfer.apk?raw=true)
